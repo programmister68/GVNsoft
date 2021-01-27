@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1611743384 source:c:\users\pc03\desktop\mp42 d\clapss0workn\lib.cpp
+	<iostream>
+
+1611743344 source:c:\users\pc03\desktop\mp42 d\clapss0workn\main.cpp
+	<iostream>
+	"lib.h"
+
+1611743334 c:\users\pc03\desktop\mp42 d\clapss0workn\lib.h
+
