@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1611913575 source:c:\users\admin\desktop\Новая папка\c++_test\500_1.cpp
+	<iostream>
+	"500_1.h"
+
+1611913522 c:\users\admin\desktop\Новая папка\c++_test\500_1.h
+
+1611913666 source:c:\users\admin\desktop\Новая папка\c++_test\main.cpp
+	<iostream>
+	"500_1.h"
+
