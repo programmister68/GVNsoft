@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1612597178 source:c:\users\pc03\desktop\mp42 d\listing my code is 300$\main.cpp
+	<iostream>
+	"list.h"
+	<assert.h>
+
+1612600800 c:\users\pc03\desktop\mp42 d\listing my code is 300$\list.h
+	<iostream>
+
+1612598937 source:c:\users\pc03\desktop\mp42 d\listing my code is 300$\testo.cpp
+	"list.h"
+	<iostream>
+	<assert.h>
+	<stdio.h>
+
+1612600800 source:c:\users\pc03\desktop\mp42 d\listing my code is 300$\list.cpp
+	"list.h"
+
