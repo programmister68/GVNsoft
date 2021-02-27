@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
 using namespace std;
-struct studentb {
+struct studentb
+{
     char* name;
     char* groupID;
     float midmar;
