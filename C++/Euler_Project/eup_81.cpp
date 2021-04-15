@@ -93,18 +93,18 @@ int main()
 
 
     int sum=0;
-    for (int k=0; k<80; k++) {   // складываем верхнюю строку
+    for (int k=0; k<80; k++) {  
         sum+=arr[0][k];
         arr[0][k]=sum;
     }
     sum=0;
-    for (int k=0; k<80; k++) { // складываем левый столб
+    for (int k=0; k<80; k++) {
         sum+=arr[k][0];
         arr[k][0]=sum;
     }
 
 
-    for (int k=1; k<80; k++) {  // складываем построчно
+    for (int k=1; k<80; k++) { 
         for (int t=1; t<80; t++) {
             if (arr[t-1][k]>arr[t][k-1]) arr[t][k]+=arr[t][k-1];
             else arr[t][k]+=arr[t-1][k];
