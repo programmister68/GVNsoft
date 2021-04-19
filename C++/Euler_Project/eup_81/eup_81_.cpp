@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     int a, summa=0;
-    ifstream file { "array.txt" };
+    ifstream file { "matrix.txt" };
     if (!file.is_open()) return -1;
     int array[80][80] {};
     for (int i{}; i != 80; ++i)
