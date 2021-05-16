@@ -4,26 +4,29 @@ using namespace std;
 
 int main()
 {
-    long long x, y, n;
-        for (x=0; x<2000000; x)
+    long long max, min, S;
+    int  nx, ny;
+    for (nx=0; nx<2000000; nx++)
+    {
+        for (ny=0; ny<2000000; ny++)
         {
-            x++;
-           for (y=0; y<2000000; y)
-           {
-            y++;
-            answer = (x*(x+1)/2) * (y*(y+1)/2);
-            if(answer<= 2000000){
-               x=2000000-answer;
+            S = (nx*(nx+1)/2) * (ny*(ny+1)/2);
+            if(S < 2000000)
+            {
+                max=2000000-S;
             }
-            else{
-               x=answer-2000000;
-               break;
+            else
+            {
+                max = S-2000000;
+                break;
             }
-            if(x < y){
-                y = x;
-                cout<<x*y;
-                }
+            if(max < min )
+            {
+                min = max;
+                cout << "Answer: " << nx*ny;
+            }
 
-           }
         }
+    }
     return 0;
+}
