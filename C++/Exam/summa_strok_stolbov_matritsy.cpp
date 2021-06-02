@@ -1,13 +1,18 @@
+#include <iostream>
 #include <stdio.h>
 #include <cstdlib>
-#define M 10
-#define N 5
 #include <time.h>
-main()
+
+using namespace std;
+
+int main()
 {
+    int N, M;
+    cin >> N >> M;
     int a[N][M];
     int sc[M];
     int s, i, j;
+    srand (time(NULL));
 
     for (i=0; i< M; i++) sc[i] = 0;
     for (i=0; i< N; i++)
@@ -15,7 +20,7 @@ main()
         s = 0;
         for (j=0; j< M; j++)
         {
-            a[i][j] = rand() % 10;
+            a[i][j] = rand() % 100;
             printf("%5d", a[i][j]);
             s += a[i][j];
             sc[j] += a[i][j];
